@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li, a{
+    list-style: none;
+    text-decoration: none;
+}
+.app{
+    display: grid;
+    grid-template-areas: 
+    "cabecalho"
+    "conteudo"
+    "rodape";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.cabecalho{
+    grid-area: cabecalho;
+    background-color: #000;
+    position: relative;
+    z-index: 0;
+}
+.conteudo{
+    grid-area: conteudo;
+}
+.rodape{
+    grid-area: rodape;
+}

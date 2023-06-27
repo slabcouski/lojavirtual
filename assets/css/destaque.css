@@ -1,0 +1,29 @@
+.destaques{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: blue;
+    height: calc(100vh - 15em);
+}
+.destaques__principal{
+    grid-column: span 8;
+    grid-row: span 2;
+    background: url('../img/slide.jpg');
+    background-size: 100% 100%;
+}
+.marktplace{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    height: 100%;
+    background-color: #1A0338;
+}
+.navegacao{
+    grid-column: span 1;
+    grid-row: auto;
+    background-color: #230B4B;
+}
+.produtos{
+    grid-column-start: span 5;
+    grid-row: auto;
+}
