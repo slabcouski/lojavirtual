@@ -20,6 +20,7 @@ header {
 }
 .container .navegacao ul{
     display: flex;
+    text-decoration: none;
 }
 .container .navegacao ul li{
     margin: 0 1rem;
