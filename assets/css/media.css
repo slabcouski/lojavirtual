@@ -17,4 +17,14 @@
     .container{
         max-width: 1024px;
     }
+    .about-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .product-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2rem;
+    }
 }
