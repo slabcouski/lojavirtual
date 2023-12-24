@@ -32,7 +32,9 @@ header {
 .section {
     margin-bottom: 40px;
 }
-
+.about-section img{
+    width: 100%
+}
 .product {
     border: 1px solid #ddd;
     padding: 15px;
