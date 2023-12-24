@@ -45,6 +45,10 @@ header p {
     color: #B33114;
 }
 
+.container-section{
+    padding-top: 2rem;
+}
+
 .section {
     margin-bottom: 40px;
 }
