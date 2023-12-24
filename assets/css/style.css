@@ -11,6 +11,9 @@ header {
     padding: 10px;
     text-align: center;
 }
+header .container{
+    margin: 0 auto;
+}
 .container {
     max-width: 90%;
     width: 100%;
