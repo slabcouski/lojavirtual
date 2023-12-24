@@ -25,6 +25,10 @@ header {
 .container .navegacao ul li{
     margin: 0 1rem;
     list-style: none;
+    text-decoration: none;
+}
+.container .navegacao ul li a{
+    text-decoration: none;
 }
 .container-section {
     padding: 20px;
