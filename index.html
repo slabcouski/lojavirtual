@@ -3,44 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Virtual</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/menu.css">
-    <link rel="stylesheet" href="./assets/css/destaque.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+    <title>Loja Virtual</title>
 </head>
 <body>
+    <header>
+        <nav class="container">
+            <div>
+                <p>Geek Power Store</p>
+            </div>
+            <div class="navegacao">
+                <ul>
+                    <li><a>Sobre a Loja</a></li>
+                    <li><a>Produtos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="container">
-        <div class="app">
-            <header class="cabecalho">
-                <nav>
-                    <ul class="menu">
-                        <li>
-                            <img src="./assets/img/NovaLogo.png" alt="">
-                        </li>
-                        <div class="link">
-                            <li>
-                                <a class="button item1" href="#">Sobre a loja</a>
-                            </li>
-                            <li>
-                                <a class="button item2" href="#">Marktplace</a>
-                            </li>
-                        </div>
-                    </ul>
-                </nav>
-            </header>
-            <main class="conteudo">
-                <section class="destaques">
-                    <div class="destaques__principal"></div>
-                </section>
-                <section class="marktplace">
-                    <aside class="navegacao"></aside>
-                    <article class="produtos">
-                        <div class="card"></div>
-                    </article>
-                </section>
-            </main>
-            <footer class="rodape"></footer>
+        <div class="container-section">
+            <div class="section about-section">
+                <div>
+                    <img src="imagem-da-loja.jpg" alt="Imagem da Loja">
+                </div>
+                <div>
+                    <h2>Sobre a Loja</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet metus vitae ligula ullamcorper
+                        tincidunt.</p>
+                </div>
+            </div>
+            <div class="section product">
+                <img src="produto1.jpg" alt="Produto 1">
+                <h3>Produto 1</h3>
+                <p>Descrição do Produto 1.</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="section product">
+                <img src="produto2.jpg" alt="Produto 2">
+                <h3>Produto 2</h3>
+                <p>Descrição do Produto 2.</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="section product">
+                <img src="produto3.jpg" alt="Produto 3">
+                <h3>Produto 3</h3>
+                <p>Descrição do Produto 3.</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
+            <div class="section product">
+                <img src="produto4.jpg" alt="Produto 4">
+                <h3>Produto 4</h3>
+                <p>Descrição do Produto 4.</p>
+                <button class="add-to-cart">Adicionar ao Carrinho</button>
+            </div>
         </div>
+        
     </div>
+    <footer>
+        <p>&copy; 2023 Geek Power Store. Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>
