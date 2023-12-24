@@ -14,6 +14,10 @@ header {
 header .container{
     margin: 0 auto;
 }
+header p{
+    color: #F9F215;
+    font-weight: bold;
+}
 .container {
     max-width: 90%;
     width: 100%;
@@ -30,7 +34,7 @@ header .container{
 }
 .container .navegacao ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #B33114;
 }
 .container-section {
     padding: 20px;
@@ -57,7 +61,7 @@ header .container{
 }
 
 .add-to-cart {
-    background-color: #4caf50;
+    background-color: #B51024;
     color: #fff;
     border: none;
     padding: 10px;
