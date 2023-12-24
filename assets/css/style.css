@@ -42,6 +42,9 @@ header .container{
 .about-section img{
     width: 100%
 }
+.about-section p{
+    text-align: justify;
+}
 .product {
     border: 1px solid #ddd;
     padding: 15px;
